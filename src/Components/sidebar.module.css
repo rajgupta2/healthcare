@@ -1,0 +1,16 @@
+/*screen size <=1100px*/
+
+@media screen and (max-width: 1100px) {
+    .sidebar{
+        display: none;
+    }
+    #menuId{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    #menuId{
+        display: none;
+    }
+}
