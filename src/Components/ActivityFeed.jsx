@@ -39,10 +39,10 @@ export default function ActivityFeed() {
         <div className="bg-dark-subtle h-50 rounded-4" style={{ width: '8px' }}></div>
         <div className="bg-success h-75 rounded-4" style={{ width: '8px' }}></div>
       </div>
-      <div className='d-flex gap-5'>
+      <div className='row'>
         {
           days.map((day, index) => (
-          <div className="text-muted small">
+          <div className=" col text-muted small ps-2">
             {day}
           </div>
          ))
